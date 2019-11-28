@@ -248,6 +248,7 @@ public class WaitingRoomController extends MasterController {
 							});
 						}
 						Platform.runLater(() -> {
+							txt.setText("");
 							connectionButton.setDisable(false);
 							input.setDisable(false);
 							IPText.setDisable(false);
@@ -260,6 +261,7 @@ public class WaitingRoomController extends MasterController {
 							});
 						}
 						Platform.runLater(() -> {
+							txt.setText("");
 							connectionButton.setDisable(false);
 							input.setDisable(false);
 							IPText.setDisable(false);

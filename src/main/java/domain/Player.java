@@ -355,7 +355,6 @@ public class Player {
 			if (rot) {
 				if (bxLeft == true || bxRight == true) {
 					getTurnBlock();
-					System.out.println("벽면 회전");
 				} else {
 //					if (!possibleError()) {
 //						leftPossible();
